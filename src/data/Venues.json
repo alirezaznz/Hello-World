@@ -1,0 +1,97 @@
+
+
+
+[
+	{
+			"cityName" : "shiraz",
+			"cityPersianName": "شیراز",
+			"cityImage": "",
+			"venues" : [
+				{
+					"type" : "hospital",
+					"typePersian" : "بیمارستان",
+					"data" : [
+						{
+						"name": "namazi",
+						"detail": {
+							"image": "require('./cityImages/hospital.jpg')"}
+						}
+					]
+				},
+				{
+					"type" : "mall",
+					"typePersian" : "مرکز خرید",
+					"data" : [
+						{
+						"name": "ghasrodasht",
+						"detail": {
+							"image": "require('./cityImages/hospital.jpg')"}
+						}
+					]
+				}
+			]
+		},
+		{
+			"cityName" : "tehran",
+			"cityPersianName": "تهران",
+			"cityImage": "",
+			"venues" : [
+				{
+					"type" : "hospital",
+					"typePersian" : "بیمارستان",
+					"data" : [
+						{
+						"name": "namazi",
+						"detail": {
+							"image": "require('./cityImages/hospital.jpg')"}
+						}
+					]
+				},
+				{
+					"type" : "mall",
+					"typePersian" : "مرکز خرید",
+					"data" : [
+						{
+						"name": "ghasrodasht",
+						"detail": {
+							"image": "require('./cityImages/hospital.jpg')"}
+						}
+					]
+				}
+			]
+		},
+		{
+			"cityName" : "isfahan",
+			"cityPersianName": "اصفهان",
+			"cityImage":"" ,
+			"venues" : [
+				{
+					"type" : "hospital",
+					"data" : [
+						{
+						"name": "namazi",
+						"detail": {
+							"image": "require('./cityImages/hospital.jpg')"}
+						}
+					]
+				}
+			]
+		},
+		{
+			"cityName" : "kermanshah",
+			"cityPersianName": "کرمانشاه",
+			"cityImage": "",
+			"venues" : [
+				{
+					"type" : "hospital",
+					"data" : [
+						{
+						"name": "namazi",
+						"detail": {
+							"image": "require('./cityImages/hospital.jpg')"}
+						}
+					]
+				}
+			]
+		}
+	]
