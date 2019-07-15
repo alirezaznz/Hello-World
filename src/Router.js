@@ -11,8 +11,8 @@ const RouterComponent = () => {
   return (
     <Router >
       <Scene key='root'>
-        {/* <Scene key="start" component={StartPage} hideNavBar initial /> */}
-        <Scene key='bottomNavigate' component={BotNavigation} hideNavBar initial />
+        <Scene key="start" component={StartPage} hideNavBar initial />
+        <Scene key='bottomNavigate' component={BotNavigation} hideNavBar />
         <Scene key="search" component={Search} hideNavBar />
         <Scene key="homePage" component={HomePage} hideNavBar />
         <Scene key="cityVenues" component={CityVenuesList} title="City Venues" />
